@@ -5,13 +5,13 @@ import Tasks from './components/Tasks';
 const App = () => {
   const [tasks, setTasks] = useState([
     {
-      id: '1',
-      title: 'Task 1',
+      id: 1,
+      title: 'Teste primeira Task',
       completed: false
     },
     {
-      id: '2',
-      title: 'Task 2',
+      id: 2,
+      title: 'Task 2 teste',
       completed: false
     }
   ]);
